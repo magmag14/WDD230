@@ -1,0 +1,74 @@
+/* Prevent adjustments of font size after orientation changes  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    padding: 5px 25px;
+    margin: 0;
+    color: rgb(80, 38, 38);
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;  
+
+    background-color: #da819d;
+    line-height: 20px;
+    margin:10px 10px -10px 10px;
+    height:120px;
+    position: relative;
+    width:880px;
+    border: 1px solid #77233e;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+h1{
+    top:-280px;
+    right: -180px;
+  position:relative;
+}
+
+Main{
+    align-items: center;
+  grid-template-columns: 330px auto;
+}
+img{
+width:200px;
+height:260px;
+margin-left:700px;
+
+}
+
+/*----------- NAVIGATION --------------*/
+nav {background-color: #0000;}
+nav ul {
+   list-style: none; 
+    display: grid;  
+    margin:0;
+}
+nav ul li {
+    list-style-type: none;
+    flex-basis: 25%; 
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #da819d;
+    line-height: 20px;
+    margin:10px 10px -10px 10px;
+    height:120px;
+    position: relative;
+    width:880px;
+    border: 1px solid #77233e;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+}
